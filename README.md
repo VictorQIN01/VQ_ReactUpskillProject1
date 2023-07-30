@@ -1,6 +1,6 @@
 # SIT374 Week 3 Upskill Project
 
-Upskill project following this video: [https://youtu.be/wYpCWwD1oz0]
+Upskill project following this video: https://youtu.be/wYpCWwD1oz0
 
 **Highlight:**
 
