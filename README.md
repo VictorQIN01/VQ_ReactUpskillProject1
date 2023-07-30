@@ -1,10 +1,12 @@
 # SIT374 Week 3 Upskill Project
 
 Upskill project following this video: [https://youtu.be/wYpCWwD1oz0]
-**Highlights:**
+
+**Highlight:**
 
 - React.js framework
-- mui library
+- Sidebars with React Pro Sidebar
+- Tables with Mui Datagrid
 - and more...
 
 ### Justification:
