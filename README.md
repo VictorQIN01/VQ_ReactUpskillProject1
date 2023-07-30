@@ -6,6 +6,7 @@ Upskill project following this video: https://youtu.be/wYpCWwD1oz0
 
 - React.js framework
 - Sidebars with React Pro Sidebar
+- Page layout with Mui Material (Box, Typography)
 - Tables with Mui Datagrid
 - and more...
 
