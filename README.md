@@ -1,4 +1,4 @@
-# SIT374 Week 3 Upskill Project
+# SIT374 Upskilling Project 1 (Week 3)
 
 Upskill project following this video: https://youtu.be/wYpCWwD1oz0
 
