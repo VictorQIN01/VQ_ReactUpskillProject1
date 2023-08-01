@@ -32,7 +32,12 @@ const Contacts = () => {
   ];
 
   return (
-    <Box m={"20px"}>
+    <Box
+      m={"20px"}
+      sx={{
+        maxHeight: "calc(100% - 100px)",
+        overflowX: "auto"
+      }}>
       <Header
         title={"CONTACTS"}
         subtitle={"List of Contacts for Future Reference"}

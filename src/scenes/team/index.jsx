@@ -59,7 +59,12 @@ const Team = () => {
   ];
 
   return (
-    <Box m={"20px"}>
+    <Box
+      m={"20px"}
+      sx={{
+        maxHeight: "calc(100% - 100px)",
+        overflowX: "auto"
+      }}>
       <Header title={"TEAM"} subtitle={"Managing the Team Members"} />
       <Box
         m={"40px 0 0 0"}

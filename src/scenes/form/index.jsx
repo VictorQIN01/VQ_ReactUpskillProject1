@@ -36,7 +36,12 @@ const Form = () => {
   };
 
   return (
-    <Box m={"20px"}>
+    <Box
+      m={"20px"}
+      sx={{
+        maxHeight: "calc(100% - 100px)",
+        overflowX: "auto"
+      }}>
       <Header title={"CREATE USER"} subtitle={"Create a New User Profile"} />
       <Formik
         onSubmit={handleFormSubmit}

@@ -32,7 +32,12 @@ const Invoices = () => {
   ];
 
   return (
-    <Box m={"20px"}>
+    <Box
+      m={"20px"}
+      sx={{
+        maxHeight: "calc(100% - 100px)",
+        overflowX: "auto"
+      }}>
       <Header title={"INVOICES"} subtitle={"List of Invoice Balances"} />
       <Box
         m={"40px 0 0 0"}
