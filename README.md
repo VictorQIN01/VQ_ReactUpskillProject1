@@ -9,7 +9,7 @@ Upskill project following this video: https://youtu.be/wYpCWwD1oz0
 - Page layout with Mui Material (Box, Typography)
 - Tables with Mui Datagrid
 - FullCalendar & Customisation
-- and more...
+- Line chart, bar chart, pie chart and geography chart with Nivo Chart package
 
 ### Justification:
 

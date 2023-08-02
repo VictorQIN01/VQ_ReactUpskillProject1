@@ -38,6 +38,7 @@ const Form = () => {
   return (
     <Box
       m={"20px"}
+      p={"5px"}
       sx={{
         maxHeight: "calc(100% - 100px)",
         overflowX: "auto"
