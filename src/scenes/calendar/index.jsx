@@ -101,6 +101,9 @@ const Calendar = () => {
             },
             "& .fc .fc-list-table .fc-list-event:hover td": {
               backgroundColor: `${colors.primary[400]} !important`
+            },
+            "& .fc .fc-day-today": {
+              backgroundColor: `${colors.greenAccent[800]} !important`
             }
           }}>
           <FullCalendar

@@ -74,7 +74,7 @@ const Sidebar = () => {
                 alignItems={"center"}
                 ml={"15px"}>
                 <Typography variant="h3" color={colors.grey[300]}>
-                  ADMINIS
+                  SIT374 DEMO
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
