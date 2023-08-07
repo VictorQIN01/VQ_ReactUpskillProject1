@@ -104,6 +104,12 @@ const Calendar = () => {
             },
             "& .fc .fc-day-today": {
               backgroundColor: `${colors.greenAccent[800]} !important`
+            },
+            "& .fc .fc-button": {
+              backgroundColor: `${colors.grey[500]} !important`
+            },
+            "& .fc .fc-button-active": {
+              backgroundColor: `${colors.primary[200]} !important`
             }
           }}>
           <FullCalendar
