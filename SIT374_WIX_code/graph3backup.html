@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      const ctx = document.getElementById("myChart");
+      Chart.defaults.color = "#f5f5f5";
+      new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: [
+            "Man City",
+            "Arsenal",
+            "Man United",
+            "Newcastle",
+            "Liverpool",
+            "Brighton",
+            "Aston Villa",
+            "Tottenham",
+            "Brentford",
+            "Fulham",
+            "Crystal Palace",
+            "Chelsea",
+            "Wolves",
+            "West Ham",
+            "Bournemouth",
+            "Everton"
+          ],
+          datasets: [
+            {
+              label: "Home Shot Conversion",
+              data: [
+                0.11, 0.09, 0.12, 0.1, 0.14, 0.16, 0.11, 0.14, 0.09, 0.08, 0.12,
+                0.12, 0.13, 0.12, 0.13, 0.1
+              ],
+              borderWidth: 1
+            }
+          ]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          plugins: {
+            title: {
+              display: true,
+              text: "Premier League Home Shot Conversion Chart",
+              padding: {
+                top: 10,
+                bottom: 30
+              },
+              font: {
+                size: 20,
+                weight: "bold"
+              }
+            },
+            legend: {
+              display: false
+            }
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
